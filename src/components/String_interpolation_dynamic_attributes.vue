@@ -1,18 +1,29 @@
 <template>
 <div>
   <div class="header">
-    <h1>Basic HelloWorld program</h1>
+    <h1>String interpolation And Dynamic attributes</h1>
   </div>
     <h1 style="text-align:center">{{ msg }}</h1> 
-  
+
+    <div v-bind:style="{ color: activeColor,fontSize: fontSize + 'px' }"><h2>{{msg}}</h2></div>
+
+
 </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  name: 'String_interpolation_dynamic_attributes',
+ 
+  data() 
+  {
+     
+    return {
+      
+      msg: 'Well come String interpolation And Bind Dynamic attributes'
+      
+    
+    }
   }
 }
 </script>
