@@ -15,6 +15,7 @@
 <Computed_property />
 <Style_class_objects />
 <Parent />
+<Hello />
 
     
   </div>
@@ -44,6 +45,8 @@ import Style_class_objects from './components/Style_class_objects'
 
 import Parent from './components/Parent'
 
+import Hello from './components/Hello'
+
 
 export default {
   name: 'App',
@@ -51,7 +54,7 @@ export default {
   {
     HelloWorld,V_Bind,List,V_if_else,V_For,Click_function,
     Event_key_modifier,Bootstrap,String_interpolation_dynamic_attributes
-  ,Hook_life_cycle,Raw_html,Computed_property,Style_class_objects,Parent
+  ,Hook_life_cycle,Raw_html,Computed_property,Style_class_objects,Parent,Hello
   }
 }
 </script>
