@@ -47,21 +47,21 @@ export default
       }, 
       
       beforeUpdate(){
-      console.log(this.n) //sets the value of n to 300 after 1,500 seconds;
+      console.log(this.n) 
     },
  
 
     updated() {
-    // Track update on the DOM element.
+   
     console.log(this.$refs['dom-element'].textContent === this.name)
   },
 
        beforeDestroy() {
-    // Remove the token.
+ 
     localStorage.removeItem('accessToken');
   },  
   destroyed() {
-    console.log(this) // Nothing is left to log
+    console.log(this) 
   }
   
  }

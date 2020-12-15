@@ -17,7 +17,7 @@
         <div id="app" style="text-align: center; 
                              padding-top: 40px;"> 
                              
-            <button v-on:click="data = !data"> 
+            <button @click="data = !data"> 
               Show 
             </button> 
             <h1 v-if="data">well come prashanth</h1> 
@@ -25,7 +25,7 @@
       
    
              <h2>{{ message }}</h2>
-              <button v-on:click="reverseMessage" class="btn btn-block btn-success">Click Reverse String</button>
+              <button @click="reverseMessage" class="btn btn-block btn-success">Click Reverse String</button>
           </div>
   
 </div>

@@ -1,19 +1,15 @@
 <template>
 <div>
   <div class="header">
-    <h1>Basic HelloWorld program</h1>
+    <h1>APP</h1>
   </div>
     <h1 style="text-align:center">{{ msg }}</h1> 
-  
 </div>
 </template>
 
 <script>
 export default {
-  name: 'Hello',
-  props: {
-    msg: String
-  }
+
 }
 </script>
 
